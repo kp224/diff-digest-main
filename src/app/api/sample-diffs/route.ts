@@ -8,8 +8,8 @@ const octokit = new Octokit({
 });
 
 // Default repository details (can be overridden by environment variables)
-const DEFAULT_OWNER = "vercel";
-const DEFAULT_REPO = "next.js";
+const DEFAULT_OWNER = "openai";
+const DEFAULT_REPO = "openai-node";
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
